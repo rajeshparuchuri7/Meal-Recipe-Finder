@@ -46,9 +46,13 @@ Meal-Finder/
 
 ##  Live Demo
 
+<<<<<<< HEAD:README.md
 https://rajeshparuchuri7.github.io/Meal-Recipe-Finder/
 
 
+=======
+(https://rajeshparuchuri7.github.io/Meal-Recipe-Finder/))
+>>>>>>> 83e15a9fbf76164a473c84b7d7e5d0c3b9c7ca30:ReadMe.md
 
 ## 🔗 API Used
 
