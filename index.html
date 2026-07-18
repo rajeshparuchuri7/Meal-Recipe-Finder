@@ -1,11 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meal Finder</title>
+
+    <title>Meal Finder | Home</title>
+
+    <!-- Common CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Home CSS -->
+    <link rel="stylesheet" href="css/home.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
 </head>
+
 <body>
-    
+
+    <!-- ================= NAVBAR ================= -->
+
+    <nav id="nav-bar">
+
+    <div class="nav-left">
+
+        <img src="assets/logo.jpg" alt="Meal Finder Logo">
+
+        <h2>Meal Finder</h2>
+
+    </div>
+
+    <div class="menu">
+
+        <i class="fa-solid fa-bars" id="btn"></i>
+
+    </div>
+
+</nav>
+
+    <!-- ================= SIDEBAR ================= -->
+
+    <aside id="menu-list" class="menu-list">
+
+        <div class="close">
+
+            <i class="fa-regular fa-circle-xmark" id="closebutton"></i>
+
+        </div>
+
+        <h2>Categories</h2>
+
+        <li data-category="Beef">🥩 Beef</li>
+        <li data-category="Chicken">🍗 Chicken</li>
+        <li data-category="Dessert">🍰 Dessert</li>
+        <li data-category="Lamb">🍖 Lamb</li>
+        <li data-category="Miscellaneous">🍽 Miscellaneous</li>
+        <li data-category="Pasta">🍝 Pasta</li>
+        <li data-category="Seafood">🐟 Seafood</li>
+        <li data-category="Starter">🥪 Starter</li>
+        <li data-category="Vegan">🥗 Vegan</li>
+        <li data-category="Vegetarian">🥬 Vegetarian</li>
+
+    </aside>
+
+    <!-- ================= HERO ================= -->
+
+    <section id="hero-banner">
+
+        <div id="img-content">
+
+            <div id="hero-content">
+
+                <div id="hero-text">
+
+                    <h1>Discover Delicious Recipes</h1>
+
+                    <p>
+
+                        Search thousands of recipes from around the world.
+
+                    </p>
+
+                </div>
+
+                <div id="search-bar">
+
+                    <input type="text"
+                        id="searchInput"
+                        placeholder="Search your favourite meal...">
+
+                    <button id="searchBtn">
+
+                        <i class="fa-solid fa-magnifying-glass"></i>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= CATEGORY SECTION ================= -->
+
+    <section id="categories">
+
+        <div class="section-title">
+
+            <h2>Popular Categories</h2>
+
+            <p>
+
+                Browse meals by category and discover something delicious.
+
+            </p>
+
+        </div>
+
+        <div id="categorycontainer" class="container">
+
+        </div>
+
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="footer-content">
+
+            <h2>Meal Finder</h2>
+
+            <p>
+
+                Discover delicious recipes from around the world using
+                TheMealDB API.
+
+            </p>
+
+            <div class="footer-links">
+
+                <a href="index.html">Home</a>
+
+                <a href="results.html?category=Chicken">Recipes</a>
+
+                <a href="https://www.themealdb.com/" target="_blank">
+
+                    TheMealDB API
+
+                </a>
+
+            </div>
+
+            <p class="copyright">
+
+                © 2026 Rajesh. All Rights Reserved.
+
+            </p>
+
+        </div>
+
+    </footer>
+
+    <script src="js/app.js"></script>
+
 </body>
+
 </html>

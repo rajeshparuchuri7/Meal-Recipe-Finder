@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Meal Finder | Results</title>
+
+    <!-- Common CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Results CSS -->
+    <link rel="stylesheet" href="css/results.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<nav id="nav-bar">
+
+    <div class="nav-left">
+
+        <img src="assets/logo.jpg" alt="Meal Finder Logo">
+
+        <h2>Meal Finder</h2>
+
+    </div>
+
+    <div class="nav-right">
+
+        <a href="index.html" class="nav-btn">
+
+            <i class="fa-solid fa-house"></i>
+
+            Home
+
+        </a>
+
+    </div>
+
+</nav>
+
+<!-- ================= TITLE ================= -->
+
+<section class="title-section">
+
+    <h1 id="pageTitle">Recipes</h1>
+
+</section>
+
+<!-- ================= MEAL GRID ================= -->
+
+<section class="meal-section">
+
+    <div id="mealsContainer" class="meal-container">
+
+    </div>
+
+</section>
+
+<!-- ================= LOADER ================= -->
+
+<div id="loader" class="loader">
+
+    Loading Recipes...
+
+</div>
+
+<!-- ================= NO RESULTS ================= -->
+
+<div id="noMeals" class="no-meals">
+
+    <div class="emoji">🍽️</div>
+
+    <h2>No Meals Found</h2>
+
+    <p>Please try another search.</p>
+
+</div>
+
+<script src="js/results.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,233 @@
+/* ===========================
+   RECIPE CONTAINER
+=========================== */
+
+.recipe-container{
+
+    width:90%;
+
+    max-width:1000px;
+
+    margin:40px auto;
+
+}
+
+
+/* ===========================
+   RECIPE CARD
+=========================== */
+
+.recipe-card{
+
+    width:90%;
+
+    max-width:1000px;
+
+    margin:40px auto;
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.15);
+
+}
+
+.recipe-card h1{
+
+    color:#E85D04;
+
+    margin-bottom:15px;
+
+    text-align:center;
+
+}
+.recipe-card img{
+
+    width:100%;
+
+    height:400px;
+
+    object-fit:contain;
+
+    border-radius:12px;
+
+    display:block;
+
+    margin:20px 0;
+
+}
+
+/* ===========================
+   RECIPE INFO
+=========================== */
+
+.recipe-info{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+    margin-bottom:20px;
+
+}
+
+.recipe-info span{
+
+    background:#FFE8D6;
+
+    color:#E85D04;
+
+    padding:8px 15px;
+
+    border-radius:20px;
+
+    font-weight:bold;
+
+}
+
+
+/* ===========================
+   HEADINGS
+=========================== */
+
+.recipe-card h2{
+
+    margin-top:25px;
+
+    margin-bottom:10px;
+
+    color:#D9480F;
+
+}
+
+
+/* ===========================
+   TEXT
+=========================== */
+
+.recipe-card p{
+
+    line-height:1.8;
+
+    color:#444;
+
+}
+
+
+/* ===========================
+   INGREDIENTS
+=========================== */
+
+.recipe-card ul{
+
+    margin-top:15px;
+
+    padding-left:25px;
+
+}
+
+.recipe-card li{
+
+    margin-bottom:8px;
+
+    line-height:1.6;
+
+}
+
+
+/* ===========================
+   YOUTUBE BUTTON
+=========================== */
+
+.youtube{
+
+    display:inline-block;
+
+    margin-top:30px;
+
+    padding:12px 22px;
+
+    background:red;
+
+    color:white;
+
+    text-decoration:none;
+
+    border-radius:8px;
+
+    font-weight:bold;
+
+    transition:.3s;
+
+}
+
+.youtube:hover{
+
+    background:#c40000;
+
+}
+
+
+/* ===========================
+   TABLET
+=========================== */
+
+@media(max-width:768px){
+
+    .recipe-card{
+
+        padding:20px;
+
+    }
+
+}
+
+
+/* ===========================
+   MOBILE
+=========================== */
+
+@media(max-width:480px){
+
+    .recipe-container{
+
+        width:95%;
+
+    }
+
+    .recipe-card{
+
+        padding:18px;
+
+    }
+
+    .recipe-card h1{
+
+        font-size:28px;
+
+    }
+
+    .recipe-card img{
+
+        max-height:250px;
+
+    }
+
+    .recipe-info{
+
+        flex-direction:column;
+
+        align-items:center;
+
+        gap:10px;
+
+    }
+
+}
