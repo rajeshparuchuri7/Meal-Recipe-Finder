@@ -46,7 +46,9 @@ Meal-Finder/
 
 ##  Live Demo
 
-(Add your GitHub Pages link here after deployment)
+https://rajeshparuchuri7.github.io/Meal-Recipe-Finder/
+
+
 
 ## 🔗 API Used
 
