@@ -7,7 +7,7 @@
     position:fixed;
 
     top:0;
-    right:-320px;
+    right:0;
 
     width:280px;
     height:100vh;
@@ -20,9 +20,17 @@
 
     box-shadow:-5px 0 20px rgba(0,0,0,.2);
 
-    transition:right .35s ease;
+    transform:translateX(100%);
+    transition:transform .35s ease;
 
     z-index:1000;
+
+}
+
+/* ADD THIS */
+.menu-list.open{
+
+    transform:translateX(0);
 
 }
 
@@ -356,11 +364,9 @@
 
     .menu-list{
 
-        width:100%;
+    width:100%;
 
-        right:-100%;
-
-    }
+}
 
     #hero-banner{
 

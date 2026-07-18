@@ -158,7 +158,7 @@ searchInput.addEventListener("keypress", (event) => {
 
 menuBtn.addEventListener("click", () => {
 
-    menuList.style.right = "0";
+    menuList.classList.add("open");
 
 });
 
@@ -169,7 +169,7 @@ menuBtn.addEventListener("click", () => {
 
 closeBtn.addEventListener("click", () => {
 
-    menuList.style.right = "-320px";
+    menuList.classList.remove("open");
 
 });
 
@@ -185,7 +185,7 @@ document.addEventListener("click", (event) => {
         !menuBtn.contains(event.target)
     ) {
 
-        menuList.style.right = "-320px";
+        menuList.classList.remove("open");
 
     }
 
